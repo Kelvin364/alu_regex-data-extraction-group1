@@ -18,8 +18,4 @@ The application extracts the following data types using custom-built regular exp
 
 ### Python Functions
 
-We implemented the extraction functions using Python's `re` module:
-
-- **`extract_Emails`**: Extracts email addresses from a given string using the pattern:
-  ```regex
-  \b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b
+We implemented the extraction functions using Python's `re` 
