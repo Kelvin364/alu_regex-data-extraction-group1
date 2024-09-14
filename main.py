@@ -10,7 +10,10 @@ def extract_Emails(Emails):
     Emails_pattern = r'\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b'
     return re.findall(Emails_pattern, Emails)
 
-
+# 2. Extracting URLs
+def extract_urls(text):
+    url_pattern = r'https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+'
+    return re.findall(url_pattern, text)
 
 
 # Main function to load the text and run the extractions
@@ -23,6 +26,9 @@ def main():
     print()
     print("Extracted Emails:", extract_Emails(sample_text))
     print()
+    print("Extracted URLs:", extract_urls(sample_text))
+    print()
+
  
   
 
