@@ -19,53 +19,88 @@ The application extracts the following data types using custom-built regular exp
 ### Python Functions
 
 We implemented the extraction functions using Python's `re` 
-Comprehensive Regex Patterns: Includes a collection of regex patterns for common data extraction tasks.
-Language Support: Examples in multiple languages (Python, JavaScript, etc.).
-Usage Examples: Detailed scripts and examples for various use cases.
-Flexible and Extensible: The regex patterns can be adapted for different use cases as needed.
-Getting Started
-Prerequisites
+
+- **Comprehensive Regex Patterns:** Includes a collection of regex patterns for common data extraction tasks.
+- **Language Support:** Examples in multiple languages (Python, JavaScript, etc.).
+- **Usage Examples:** Detailed scripts and examples for various use cases.
+- **Flexible and Extensible:** The regex patterns can be adapted for different use cases as needed.
+
+## Getting Started
+
+### Prerequisites
+
 Before using the scripts in this repository, ensure you have the following installed on your system:
 
-Python 3.x (if you intend to run Python scripts)
-Git (for cloning this repository)
-A text editor or an IDE like Visual Studio Code, PyCharm, etc.
-Installation
-Clone the Repository
+- **Python 3.x** (if you intend to run Python scripts)
+- **Git** (for cloning this repository)
+- A text editor or an IDE like Visual Studio Code, PyCharm, etc.
 
-Clone this repository to your local machine using the following command:
+### Installation
 
-bash
-Copy code
-git clone https://github.com/Kelvin364/alu_regex-data-extraction-group1.git
-Navigate to the Project Directory
+1. **Clone the Repository**
 
-bash
-Copy code
-cd alu_regex-data-extraction-group1
-(Optional) Create a Virtual Environment
+   Clone this repository to your local machine using the following command:
 
-If you plan to use Python for regex tasks, it's recommended to create a virtual environment:
+   ```bash
+   git clone https://github.com/Kelvin364/alu_regex-data-extraction-group1.git
+   ```
 
-bash
-Copy code
-python3 -m venv env
-source env/bin/activate  # For Linux/MacOS
-.\env\Scripts\activate   # For Windows
-Install Dependencies
+2. **Navigate to the Project Directory**
 
-Install the required Python packages (if any). For example:
+   ```bash
+   cd alu_regex-data-extraction-group1
+   ```
 
-bash
-Copy code
-pip install -r requirements.txt
-Note: Add a requirements.txt file if your project uses specific Python packages.
+3. **(Optional) Create a Virtual Environment**
 
-Usage
-Running the Examples
+   If you plan to use Python for regex tasks, it's recommended to create a virtual environment:
 
-The repository includes example scripts for different regex tasks. To run a script, use:
+   ```bash
+   python3 -m venv env
+   source env/bin/activate  # For Linux/MacOS
+   .\env\Scripts\activate   # For Windows
+   ```
 
-bash
-Copy code
-python <script_name>.py
+4. **Install Dependencies**
+
+   Install the required Python packages (if any). For example:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   *Note: Add a `requirements.txt` file if your project uses specific Python packages.*
+
+## Usage
+
+1. **Running the Examples**
+
+   The repository includes example scripts for different regex tasks. To run a script, use:
+
+   ```bash
+   python <main>.py
+   ```
+
+## Contributing
+
+Contributions are welcome! If you have regex patterns or scripts that you would like to share, feel free to fork this repository, make your changes, and submit a pull request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/new-pattern`)
+3. Commit your changes (`git commit -am 'Add new regex pattern'`)
+4. Push to the branch (`git push origin feature/new-pattern`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or feedback, feel free to contact the repository owner:
+
+- **Kelvin Rwihimba** - [GitHub Profile](https://github.com/Kelvin364)
+
+---
+
+This README provides a complete overview of the repository, including instructions for installation, usage, and contribution. Adjust the content as needed to fit the specifics of your project.
