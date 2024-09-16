@@ -13,7 +13,9 @@ The application extracts the following data types using custom-built regular exp
 3. **Phone Numbers**
 4. **Credit Card Numbers**
 5. **HTML Tags**
-
+6. **Hash Tags**
+7. **Currencies**
+8. **Time**
 ## Code Implementation
 
 ### Python Functions
