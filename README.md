@@ -80,7 +80,6 @@ Before using the scripts in this repository, ensure you have the following insta
    ```bash
    python <main>.py
    ```
-
 ## Contributing
 
 Contributions are welcome! If you have regex patterns or scripts that you would like to share, feel free to fork this repository, make your changes, and submit a pull request.
@@ -91,9 +90,6 @@ Contributions are welcome! If you have regex patterns or scripts that you would 
 4. Push to the branch (`git push origin feature/new-pattern`)
 5. Create a new Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
