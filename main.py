@@ -20,6 +20,11 @@ def extract_phone_numbers(text):
     phone_pattern = r'(\(?\d{3}\)?[\s.-]?)?\d{3}[\s.-]?\d{4}'
     return re.findall(phone_pattern, text)
 
+# 4. Extracting Credit Card Numbers
+def extract_credit_cards(text):
+    credit_card_pattern = r'(\d{4}[-\s]?){3}\d{4}'
+    return re.findall(credit_card_pattern, text)
+
 # Main function to load the text and run the extractions
 def main():
     # Load the sample text from the file
