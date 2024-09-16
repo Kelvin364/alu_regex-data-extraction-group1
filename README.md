@@ -1,4 +1,4 @@
-# Regex Data Extraction Application - Group N
+# Regex Data Extraction Application - Group 1
 
 ## Overview
 
@@ -89,7 +89,6 @@ Contributions are welcome! If you have regex patterns or scripts that you would 
 3. Commit your changes (`git commit -am 'Add new regex pattern'`)
 4. Push to the branch (`git push origin feature/new-pattern`)
 5. Create a new Pull Request
-
 
 ## Contact
 
