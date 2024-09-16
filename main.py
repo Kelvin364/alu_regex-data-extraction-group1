@@ -15,10 +15,10 @@ def extract_urls(text):
     url_pattern = r'https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+'
     return re.findall(url_pattern, text)
 
-# 3. Extract HTML_Tags
-def extract_html_tags(text):
-    html_pattern = r'<[^>]+>'
-    return re.findall(html_pattern, text)
+# 3. Extracting Phone Numbers (various formats)
+def extract_phone_numbers(text):
+    phone_pattern = r'(\(?\d{3}\)?[\s.-]?)?\d{3}[\s.-]?\d{4}'
+    return re.findall(phone_pattern, text)
 
 # Main function to load the text and run the extractions
 def main():
@@ -31,7 +31,7 @@ def main():
     print("Extracted Emails:", extract_Emails(sample_text))
     print()
     print("Extracted URLs:", extract_urls(sample_text))
-    print("Extracted HTML Tags:", extract_html_tags(sample_text))
+    print("Extracted Phone Numbers:", extract_phone_numbers(sample_text)) 
   
 
 if __name__ == '__main__':
